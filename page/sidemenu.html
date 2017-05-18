@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/common.css" rel="stylesheet" />
+		<link href="../css/qq-icon.css" rel="stylesheet" />
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/public.js"></script>
+		<style type="text/css">
+			.wrap{
+				width: auto;
+				height: 4.5rem;
+				background: url(../img/18.jpg) no-repeat;				
+			}
+			.wrap-user{
+				position: relative;
+				top: 2.6rem;
+				left: 0.5rem;
+			}
+			.wrap-user>img{
+				width: 0.8rem;
+				height: 0.8rem;
+				border-radius: 0.4rem;
+			}
+			.wrap-user>span{
+				color: white;
+				font-size: 0.32rem;
+			}
+			.wrap-user>p{
+				color: white;
+				font-size: 0.2rem;
+			}
+			footer{
+				position: fixed;
+				bottom: 0.2rem;
+				left: 0.2rem;
+			}
+			footer ul li{
+				list-style: none;
+				display: inline-block;
+			}
+			footer ul li:last-child{
+				margin-left: 0.6rem;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="mui-content">
+			<div class="wrap">
+				<div class="wrap-user">
+					<img src="../img/11.jpg"/><span>青藜</span>
+					<div class="">	
+					</div>
+					<p>Hello,it's me!</p>
+				</div>
+			</div>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<span class="mui-icon qq-icon qq-icon-huiyuantequan"></span>
+						<span class="mui-media-body">了解会员特权</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<span class="mui-icon qq-icon qq-icon-asmkticon0112"></span>
+						<span class="mui-media-body">QQ钱包</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<span class="mui-icon qq-icon qq-icon-gexing"></span>
+						<span class="mui-media-body">个性装扮</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<span class="mui-icon qq-icon qq-icon-wodeshoucang"></span>
+						<span class="mui-media-body">我的收藏</sapn>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<span class="mui-icon qq-icon qq-icon-xiangce"></span>
+						<span class="mui-media-body">我的相册</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<span class="mui-icon qq-icon qq-icon-shouyewodewenjianjia"></span>
+						<span class="mui-media-body">我的文件</span>
+					</a>
+				</li>
+			</ul>
+			<footer>
+				<ul>
+					<li>
+						<a href="#" id="set">
+							<span class="mui-icon qq-icon qq-icon-iconziti09"></span>设置</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="mui-icon qq-icon qq-icon-yejiandianji"></span>夜间</a>
+					</li>
+				</ul>
+			</footer>			
+		</div>
+	</body>
+			<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			mui.ready(function(){
+				document.getElementById("set").addEventListener("tap",function(){
+				mui.openWindow({
+					url:"set.html",
+					id:"set",
+				});
+			});
+			});
+			
+		</script>
+
+</html>

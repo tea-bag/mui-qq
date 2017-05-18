@@ -1,0 +1,45 @@
+{
+	"index.html": {
+		"resources": [
+			"css/icon-music.css",
+			"fonts/mui.ttf",
+			"fonts/icon-music.ttf",
+			"img/dzq.png",
+			"js/mui.js",
+			"page/home.html",
+			"css/mui.css"
+		],
+		"refer": [
+			"page/sidemenu.html",
+			"page/userset.html",
+			"page/home.html",
+			"page/usermusic.html"
+		]
+	},
+	"page/home.html": {
+		"resources": [
+			"css/icons-extra.css",
+			"css/icon-music.css",
+			"js/mui.js",
+			"css/mui.css"
+		]
+	},
+	"page/usermusic.html": {
+		"resources": [
+			"fonts/mui-icons-extra.ttf",
+			"img/ym.png",
+			"img/zjl.png",
+			"js/mui.js",
+			"css/mui.css",
+			"css/icons-extra.css"
+		]
+	},
+	"page/userset.html": {
+		"resources": [
+			"css/icon-music.css",
+			"js/mui.js",
+			"css/mui.css",
+			"css/icons-extra.css"
+		]
+	}
+}
